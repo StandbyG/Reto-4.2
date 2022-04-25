@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie Web</title>
+  <link rel="stylesheet" href="/styles/css/index.css" />
+
+  <link rel=" preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body class="body">
+  <header class="header">
+    <nav class="header-nav">
+        <div class="header-nav__container">
+          <a href="#" class="header-nav__link-logo-container">
+            <img src="https://wallpapercave.com/dwp1x/wp4944742.jpg" alt="Logo de Web" class="header-nav__link-logo" />
+          </a>
+          <label for="headerNavMenuIcon" class="header-nav__menu-icon-label">
+            <i class="bi bi-list"></i>
+          </label>
+          <input type="checkbox" id="headerNavMenuIcon" class="header-nav__menu-icon-checkbox" />
+          <ul class="header-nav__menu-link-list">
+            <li class="header-nav__menu-link-item">
+              <a href="#" class="header-nav__menu-link">Home</a>
+            </li>
+            <li class="header-nav__menu-link-item">
+              <a href="#moviess" class="header-nav__menu-link">Cartelera</a>
+            </li>
+            <li class="header-nav__menu-link-item">
+              <a href="#ciness" class="header-nav__menu-link">Cines</a>
+            </li>
+            <li class="header-nav__menu-link-item">
+              <a href="#" class="header-nav__menu-link">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  </header>
+  <main class="main">
+    <article class="profile">
+      <div class="profile__container">
+        <div class="profile__info">
+          <h2 class="profile__info-title">Movie Web</h2>
+          <h1 class="profile__info-subtitle">Todo lo que quieras saber sobre el cine en una pagina web.</h1>
+          <p class="profile__info-description">
+                Pagina web para personas que son amantes del cine y de las buenas peliculas.
+          </p>
+        </div>
+        <div class="profile__figure">
+          <figure class="profile__figure-image-container">
+            <img src="https://wallpapercave.com/wp/wp6288909.jpg" alt="Elliot Garamendi" class="profile__figure-image" />
+            <img src="https://wallpapercave.com/dwp1x/wp6688383.jpg" alt="HTML" class="profile__figure-tech-one">
+            <img src="https://wallpapercave.com/dwp1x/wp10541327.jpg" alt="CSS" class="profile__figure-tech-two">
+            <img src="https://wallpapercave.com/dwp1x/wp10471141.jpg" alt="JavaScript" class="profile__figure-tech-three">
+            <img src="https://wallpapercave.com/dwp1x/wp6974249.jpg" alt="React" class="profile__figure-tech-four">
+          </figure>
+        </div>
+      </div>
+    </article>
+
+    <section class="wave-separator">
+      <figure class="wave-separator__wave-container">
+        <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 500" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><style>
+            .path-0{
+              animation:pathAnim-0 4s;
+              animation-timing-function: linear;
+              animation-iteration-count: infinite;
+            }
+            @keyframes pathAnim-0{
+              0%{
+                d: path("M 0,500 C 0,500 0,250 0,250 C 44.40425060959521,259.380846049097 88.80850121919042,268.761692098194 131,278 C 173.19149878080958,287.238307901806 213.1702457328335,296.33407765632114 264,310 C 314.8297542671665,323.66592234367886 376.51051584947555,341.90199727652157 413,322 C 449.48948415052445,302.09800272347843 460.7876908692642,244.0579332375925 502,228 C 543.2123091307358,211.9420667624075 614.3387206734677,237.8662697731084 669,231 C 723.6612793265323,224.1337302268916 761.8574264368651,184.47698766997394 797,193 C 832.1425735631349,201.52301233002606 864.2315735790722,258.22577954699597 914,294 C 963.7684264209278,329.77422045300403 1031.2162792468466,344.61989414204226 1071,331 C 1110.7837207531534,317.38010585795774 1122.9033094335414,275.2946438848348 1165,278 C 1207.0966905664586,280.7053561151652 1279.170483018988,328.20153031861867 1330,331 C 1380.829516981012,333.79846968138133 1410.4147584905058,291.89923484069067 1440,250 C 1440,250 1440,500 1440,500 Z");
+              }
+              25%{
+                d: path("M 0,500 C 0,500 0,250 0,250 C 39.56468261206017,227.70453269679257 79.12936522412033,205.4090653935851 125,205 C 170.87063477587967,204.5909346064149 223.04722171557893,226.06827112245207 271,252 C 318.9527782844211,277.9317288775479 362.6817479135641,308.3178501166066 408,334 C 453.3182520864359,359.6821498833934 500.22578663016475,380.66032841112127 545,333 C 589.7742133698353,285.33967158887873 632.415105565777,169.0408362389082 675,169 C 717.584894434223,168.9591637610918 760.1137911067274,285.1763266332459 796,335 C 831.8862088932726,384.8236733667541 861.1297300073135,368.25385722810813 900,327 C 938.8702699926865,285.74614277189187 987.367288864019,219.80824445432154 1029,225 C 1070.632711135981,230.19175554567846 1105.40111453661,306.5131649546057 1153,323 C 1200.59888546339,339.4868350453943 1261.0282529895399,296.1390957272555 1311,274 C 1360.9717470104601,251.8609042727445 1400.48587350523,250.93045213637225 1440,250 C 1440,250 1440,500 1440,500 Z");
+              }
+              50%{
+                d: path("M 0,500 C 0,500 0,250 0,250 C 56.202957577131286,268.89655917367753 112.40591515426257,287.79311834735506 150,291 C 187.59408484573743,294.20688165264494 206.57929696008102,281.72408578425734 243,260 C 279.420703039919,238.2759142157427 333.2768970054133,207.31053851561575 381,191 C 428.7231029945867,174.68946148438425 470.31311501826565,173.03376015327976 521,187 C 571.6868849817344,200.96623984672024 631.4706429215238,230.55442087126522 678,256 C 724.5293570784762,281.4455791287348 757.8043132956392,302.7485563616595 790,280 C 822.1956867043608,257.2514436383405 853.3121038959199,190.45135368209674 898,180 C 942.6878961040801,169.54864631790326 1000.9472711206813,215.44602890995344 1047,246 C 1093.0527288793187,276.55397109004656 1126.898811621355,291.7645306780895 1172,268 C 1217.101188378645,244.23546932191053 1273.4574823938985,181.49584837768873 1320,172 C 1366.5425176061015,162.50415162231127 1403.2712588030508,206.25207581115563 1440,250 C 1440,250 1440,500 1440,500 Z");
+              }
+              75%{
+                d: path("M 0,500 C 0,500 0,250 0,250 C 50.146646385193336,229.2751899617332 100.29329277038667,208.55037992346635 141,204 C 181.70670722961333,199.44962007653365 212.97347530364658,211.07367026786773 257,241 C 301.0265246963534,270.9263297321323 357.8128060150269,319.1549390050627 399,338 C 440.1871939849731,356.8450609949373 465.7753006362457,346.30657371188147 511,343 C 556.2246993637543,339.69342628811853 621.0859914399904,343.6187661474114 674,316 C 726.9140085600096,288.3812338525886 767.8807336037924,229.21836169847302 809,215 C 850.1192663962076,200.78163830152698 891.3910741448401,231.50778705869647 926,261 C 960.6089258551599,290.49221294130353 988.5549698168468,318.7504900667411 1026,317 C 1063.4450301831532,315.2495099332589 1110.3890465877719,283.49025267433893 1158,257 C 1205.6109534122281,230.50974732566107 1253.8888438320653,209.28849923590317 1301,209 C 1348.1111561679347,208.71150076409683 1394.0555780839672,229.35575038204843 1440,250 C 1440,250 1440,500 1440,500 Z");
+              }
+              100%{
+                d: path("M 0,500 C 0,500 0,250 0,250 C 44.40425060959521,259.380846049097 88.80850121919042,268.761692098194 131,278 C 173.19149878080958,287.238307901806 213.1702457328335,296.33407765632114 264,310 C 314.8297542671665,323.66592234367886 376.51051584947555,341.90199727652157 413,322 C 449.48948415052445,302.09800272347843 460.7876908692642,244.0579332375925 502,228 C 543.2123091307358,211.9420667624075 614.3387206734677,237.8662697731084 669,231 C 723.6612793265323,224.1337302268916 761.8574264368651,184.47698766997394 797,193 C 832.1425735631349,201.52301233002606 864.2315735790722,258.22577954699597 914,294 C 963.7684264209278,329.77422045300403 1031.2162792468466,344.61989414204226 1071,331 C 1110.7837207531534,317.38010585795774 1122.9033094335414,275.2946438848348 1165,278 C 1207.0966905664586,280.7053561151652 1279.170483018988,328.20153031861867 1330,331 C 1380.829516981012,333.79846968138133 1410.4147584905058,291.89923484069067 1440,250 C 1440,250 1440,500 1440,500 Z");
+              }
+            }</style><defs><linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%"><stop offset="5%" stop-color="#002bdcff"></stop><stop offset="95%" stop-color="#32ded4ff"></stop></linearGradient></defs><path d="M 0,500 C 0,500 0,250 0,250 C 44.40425060959521,259.380846049097 88.80850121919042,268.761692098194 131,278 C 173.19149878080958,287.238307901806 213.1702457328335,296.33407765632114 264,310 C 314.8297542671665,323.66592234367886 376.51051584947555,341.90199727652157 413,322 C 449.48948415052445,302.09800272347843 460.7876908692642,244.0579332375925 502,228 C 543.2123091307358,211.9420667624075 614.3387206734677,237.8662697731084 669,231 C 723.6612793265323,224.1337302268916 761.8574264368651,184.47698766997394 797,193 C 832.1425735631349,201.52301233002606 864.2315735790722,258.22577954699597 914,294 C 963.7684264209278,329.77422045300403 1031.2162792468466,344.61989414204226 1071,331 C 1110.7837207531534,317.38010585795774 1122.9033094335414,275.2946438848348 1165,278 C 1207.0966905664586,280.7053561151652 1279.170483018988,328.20153031861867 1330,331 C 1380.829516981012,333.79846968138133 1410.4147584905058,291.89923484069067 1440,250 C 1440,250 1440,500 1440,500 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150 path-0" transform="rotate(-180 720 250)"></path></svg>
+      </figure>
+    </section>
+
+    <section class="movies" id="moviess">
+      <div class="movies__container">
+        <h2 class="movies__title"> 🎬 Peliculas🎬 </h2>
+        <div class="movies__movies-list">
+            <article class="movies__movies-item">
+              <figure class="movies__item-image-container">
+                <img src="https://wallpapercave.com/dwp1x/wp9429729.jpg" alt="Pelicula Batman"
+                  class="movies__item-image" />
+              </figure>
+              <div class="movies__item-data">
+                <h2 class="movies__item-data-title">Batman</h2>
+                <h3 class="movies__item-data-core-technology">Estreno</h3>
+                <h4 class="movies__item-data-technologies">Genero: Accion, Crimen, Drama, Misterio, Superheroes, Aventura</h4>
+                <p class="movies__item-data-about">En su segundo año luchando contra el crimen, Batman explora la corrupción existente en la ciudad de Gotham y el vínculo de esta con su propia familia. Además, 
+                    entrará en conflicto con un asesino en serie conocido como "el Acertijo"..</p>
+              </div>
+              <div class="movies__item-button-container">
+                <a href="https://sin-e-spoiler-r.netlify.app"
+                  class="movies__item-button movies__item-button--bg-gold ">Cines</a>
+                <a href="https://github.com/ElliotXLeo/sin-e-spoiler-r" class="movies__item-button">Ver</a>
+              </div>
+            </article>
+            <article class="movies__movies-item">
+              <figure class="movies__item-image-container">
+                <img src="https://wallpapercave.com/dwp1x/wp10471142.jpg" alt="Uncharted"
+                  class="movies__item-image" />
+              </figure>
+              <div class="movies__item-data">
+                <h2 class="movies__item-data-title">Uncharted</h2>
+                <h3 class="movies__item-data-core-technology">Estreno</h3>
+                <h4 class="movies__item-data-technologies">Genero: Accion, Aventura</h4>
+                <p class="movies__item-data-about">El cazador de tesoros Victor Sullivan recluta a Nathan Drake para que lo ayude a recuperar una fortuna de 500 años de antigüedad. 
+                    Lo que comienza como un atraco se convierte en una competencia contra el despiadado Santiago Moncada..</p>
+              </div>
+              <div class="movies__item-button-container">
+                <a href="https://elliotxleo.github.io/bootcamp-frontend-t-g-14/"
+                  class="movies__item-button movies__item-button--bg-gold ">Cines</a>
+                <a href="https://github.com/ElliotXLeo/bootcamp-frontend-t-g-14" class="movies__item-button">Ver</a>
+              </div>
+            </article>
+            <article class="movies__movies-item">
+              <figure class="movies__item-image-container">
+                <img src="https://wallpapercave.com/dwp1x/wp10427669.jpg" alt="La caida de la casa blanca"
+                  class="movies__item-image" />
+              </figure>
+              <div class="movies__item-data">
+                <h2 class="movies__item-data-title">La caida de la casa blanca</h2>
+                <h3 class="movies__item-data-core-technology">Emision</h3>
+                <h4 class="movies__item-data-technologies">Genero: Accion, Drama, Thriller, Thriller Politico</h4>
+                <p class="movies__item-data-about">El policía del Capitolio John Cale, debe pasar una entrevista para entrar en el Servicio Secreto. Sin saber el resultado, este decide llevar a su hija a la Casa Blanca, 
+                    pero en mitad de la visita un grupo paramilitar, asalta el edificio..</p>
+              </div>
+              <div class="movies__item-button-container">
+                <a href="https://pancito-feliz-r.netlify.app"
+                  class="movies__item-button movies__item-button--bg-gold ">Cines</a>
+                <a href="https://github.com/ElliotXLeo/pancito-feliz-r" class="movies__item-button">Ver</a>
+              </div>
+            </article>
+            
+          </div>
+      </div>
+    </section>
+
+    <section class="wave-separator wave-separator--r-180deg">
+      <figure class="wave-separator__wave-container">
+        <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 500" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><style>
+            .path-0{
+              animation:pathAnim-0 4s;
+              animation-timing-function: linear;
+              animation-iteration-count: infinite;
+            }
+            @keyframes pathAnim-0{
+              0%{
+                d: path("M 0,500 C 0,500 0,250 0,250 C 44.40425060959521,259.380846049097 88.80850121919042,268.761692098194 131,278 C 173.19149878080958,287.238307901806 213.1702457328335,296.33407765632114 264,310 C 314.8297542671665,323.66592234367886 376.51051584947555,341.90199727652157 413,322 C 449.48948415052445,302.09800272347843 460.7876908692642,244.0579332375925 502,228 C 543.2123091307358,211.9420667624075 614.3387206734677,237.8662697731084 669,231 C 723.6612793265323,224.1337302268916 761.8574264368651,184.47698766997394 797,193 C 832.1425735631349,201.52301233002606 864.2315735790722,258.22577954699597 914,294 C 963.7684264209278,329.77422045300403 1031.2162792468466,344.61989414204226 1071,331 C 1110.7837207531534,317.38010585795774 1122.9033094335414,275.2946438848348 1165,278 C 1207.0966905664586,280.7053561151652 1279.170483018988,328.20153031861867 1330,331 C 1380.829516981012,333.79846968138133 1410.4147584905058,291.89923484069067 1440,250 C 1440,250 1440,500 1440,500 Z");
+              }
+              25%{
+                d: path("M 0,500 C 0,500 0,250 0,250 C 39.56468261206017,227.70453269679257 79.12936522412033,205.4090653935851 125,205 C 170.87063477587967,204.5909346064149 223.04722171557893,226.06827112245207 271,252 C 318.9527782844211,277.9317288775479 362.6817479135641,308.3178501166066 408,334 C 453.3182520864359,359.6821498833934 500.22578663016475,380.66032841112127 545,333 C 589.7742133698353,285.33967158887873 632.415105565777,169.0408362389082 675,169 C 717.584894434223,168.9591637610918 760.1137911067274,285.1763266332459 796,335 C 831.8862088932726,384.8236733667541 861.1297300073135,368.25385722810813 900,327 C 938.8702699926865,285.74614277189187 987.367288864019,219.80824445432154 1029,225 C 1070.632711135981,230.19175554567846 1105.40111453661,306.5131649546057 1153,323 C 1200.59888546339,339.4868350453943 1261.0282529895399,296.1390957272555 1311,274 C 1360.9717470104601,251.8609042727445 1400.48587350523,250.93045213637225 1440,250 C 1440,250 1440,500 1440,500 Z");
+              }
+              50%{
+                d: path("M 0,500 C 0,500 0,250 0,250 C 56.202957577131286,268.89655917367753 112.40591515426257,287.79311834735506 150,291 C 187.59408484573743,294.20688165264494 206.57929696008102,281.72408578425734 243,260 C 279.420703039919,238.2759142157427 333.2768970054133,207.31053851561575 381,191 C 428.7231029945867,174.68946148438425 470.31311501826565,173.03376015327976 521,187 C 571.6868849817344,200.96623984672024 631.4706429215238,230.55442087126522 678,256 C 724.5293570784762,281.4455791287348 757.8043132956392,302.7485563616595 790,280 C 822.1956867043608,257.2514436383405 853.3121038959199,190.45135368209674 898,180 C 942.6878961040801,169.54864631790326 1000.9472711206813,215.44602890995344 1047,246 C 1093.0527288793187,276.55397109004656 1126.898811621355,291.7645306780895 1172,268 C 1217.101188378645,244.23546932191053 1273.4574823938985,181.49584837768873 1320,172 C 1366.5425176061015,162.50415162231127 1403.2712588030508,206.25207581115563 1440,250 C 1440,250 1440,500 1440,500 Z");
+              }
+              75%{
+                d: path("M 0,500 C 0,500 0,250 0,250 C 50.146646385193336,229.2751899617332 100.29329277038667,208.55037992346635 141,204 C 181.70670722961333,199.44962007653365 212.97347530364658,211.07367026786773 257,241 C 301.0265246963534,270.9263297321323 357.8128060150269,319.1549390050627 399,338 C 440.1871939849731,356.8450609949373 465.7753006362457,346.30657371188147 511,343 C 556.2246993637543,339.69342628811853 621.0859914399904,343.6187661474114 674,316 C 726.9140085600096,288.3812338525886 767.8807336037924,229.21836169847302 809,215 C 850.1192663962076,200.78163830152698 891.3910741448401,231.50778705869647 926,261 C 960.6089258551599,290.49221294130353 988.5549698168468,318.7504900667411 1026,317 C 1063.4450301831532,315.2495099332589 1110.3890465877719,283.49025267433893 1158,257 C 1205.6109534122281,230.50974732566107 1253.8888438320653,209.28849923590317 1301,209 C 1348.1111561679347,208.71150076409683 1394.0555780839672,229.35575038204843 1440,250 C 1440,250 1440,500 1440,500 Z");
+              }
+              100%{
+                d: path("M 0,500 C 0,500 0,250 0,250 C 44.40425060959521,259.380846049097 88.80850121919042,268.761692098194 131,278 C 173.19149878080958,287.238307901806 213.1702457328335,296.33407765632114 264,310 C 314.8297542671665,323.66592234367886 376.51051584947555,341.90199727652157 413,322 C 449.48948415052445,302.09800272347843 460.7876908692642,244.0579332375925 502,228 C 543.2123091307358,211.9420667624075 614.3387206734677,237.8662697731084 669,231 C 723.6612793265323,224.1337302268916 761.8574264368651,184.47698766997394 797,193 C 832.1425735631349,201.52301233002606 864.2315735790722,258.22577954699597 914,294 C 963.7684264209278,329.77422045300403 1031.2162792468466,344.61989414204226 1071,331 C 1110.7837207531534,317.38010585795774 1122.9033094335414,275.2946438848348 1165,278 C 1207.0966905664586,280.7053561151652 1279.170483018988,328.20153031861867 1330,331 C 1380.829516981012,333.79846968138133 1410.4147584905058,291.89923484069067 1440,250 C 1440,250 1440,500 1440,500 Z");
+              }
+            }</style><defs><linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%"><stop offset="5%" stop-color="#002bdcff"></stop><stop offset="95%" stop-color="#32ded4ff"></stop></linearGradient></defs><path d="M 0,500 C 0,500 0,250 0,250 C 44.40425060959521,259.380846049097 88.80850121919042,268.761692098194 131,278 C 173.19149878080958,287.238307901806 213.1702457328335,296.33407765632114 264,310 C 314.8297542671665,323.66592234367886 376.51051584947555,341.90199727652157 413,322 C 449.48948415052445,302.09800272347843 460.7876908692642,244.0579332375925 502,228 C 543.2123091307358,211.9420667624075 614.3387206734677,237.8662697731084 669,231 C 723.6612793265323,224.1337302268916 761.8574264368651,184.47698766997394 797,193 C 832.1425735631349,201.52301233002606 864.2315735790722,258.22577954699597 914,294 C 963.7684264209278,329.77422045300403 1031.2162792468466,344.61989414204226 1071,331 C 1110.7837207531534,317.38010585795774 1122.9033094335414,275.2946438848348 1165,278 C 1207.0966905664586,280.7053561151652 1279.170483018988,328.20153031861867 1330,331 C 1380.829516981012,333.79846968138133 1410.4147584905058,291.89923484069067 1440,250 C 1440,250 1440,500 1440,500 Z" stroke="none" stroke-width="0" fill="url(#gradient)" class="transition-all duration-300 ease-in-out delay-150 path-0" transform="rotate(-180 720 250)"></path></svg>
+      </figure>
+    </section>
+
+    <section class="cines" id="ciness">
+      <div class="cines__container">
+        <h2 class="cines__title">📽️ Cines 📽️</h2>
+        <div class="cines__cines-list">
+          <article class="cines__cines-item">
+            <figure class="cines__item-image-container">
+              <img src="https://elcomercio.pe/resizer/U0DwcYnxnvFZQPD0TVah_amNBRg=/1200x800/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/FEKYHJWEBBE3DJ2AC7M72HGCIU.jpg" alt="Cine Alcazar"
+                class="cines__item-image" />
+            </figure>
+            <div class="cines__item-data">
+              <h2 class="cines__item-data-title">Cineplanet Alcazar</h2>
+              <h3 class="cines__item-data-core-technology">Direccion y Opinion </h3>
+              <h4 class="cines__item-data-technologies">Av. Sta. Cruz 814, Lima 15073</h4>
+              <p class="cines__item-data-about">Es muy bonito. Los ambientes amplios, cómodos, y ni que decir cuando eres socio. Todo mejora. 
+                  Casi nunca encuentras ningún inconveniente. De hecho nunca.</p>
+            </div>
+            <div class="cines__item-button-container">
+              <a href="https://sin-e-spoiler-r.netlify.app"
+                class="cines__item-button cines__item-button--bg-gold ">Contacto</a>
+              <a href="https://github.com/ElliotXLeo/sin-e-spoiler-r" class="cines__item-button">Ver</a>
+            </div>
+          </article>
+          <article class="cines__cines-item">
+            <figure class="cines__item-image-container">
+              <img src="http://www.sigral.com.pe/timthumb.php?src=http://www.sigral.com.pe/wp-content/uploads/2335-00-600x450.jpg&w=570&h=340&zc=1&q=100" alt="Cineplanet Centro Civico"
+                class="cines__item-image" />
+            </figure>
+            <div class="cines__item-data">
+              <h2 class="cines__item-data-title">Cineplanet Centro Civico</h2>
+              <h3 class="cines__item-data-core-technology">Direccion y Opinion</h3>
+              <h4 class="cines__item-data-technologies">Av. Inca Garcilaso de la Vega 1337, Cercado de Lima 15001</h4>
+              <p class="cines__item-data-about">Muy atentos los trabajadores. Cumplen con los protocolos de higiene y seguridad. Las salas de cine excelentes, 
+                  muy limpias al igual que las áreas de higiene.. 100% recomendado.</p>
+            </div>
+            <div class="cines__item-button-container">
+              <a href="https://elliotxleo.github.io/bootcamp-frontend-t-g-14/"
+                class="cines__item-button cines__item-button--bg-gold ">Contacto</a>
+              <a href="https://github.com/ElliotXLeo/bootcamp-frontend-t-g-14" class="cines__item-button">Ver</a>
+            </div>
+          </article>
+          <article class="cines__cines-item">
+            <figure class="cines__item-image-container">
+              <img src="http://farm4.static.flickr.com/3091/2699337120_0758aef6fa_b.jpg" alt="Cinerama El Pacifico"
+                class="cines__item-image" />
+            </figure>
+            <div class="cines__item-data">
+              <h2 class="cines__item-data-title">Cinerama El Pacifico</h2>
+              <h3 class="cines__item-data-core-technology">Direccion y Opiniones</h3>
+              <h4 class="cines__item-data-technologies">Edificio El Pacífico, Av. José Pardo 121, Miraflores Lima 18</h4>
+              <p class="cines__item-data-about">deal para ver películas con una gran definición en 4k, a un precio muy económico. El precio de la canchita y la gaseosa tmb son accesibles, además de muy ricos.
+                   La entrada es muy rápida y sus asientos son muy cómodos, para poder disfrutar la peli con tranquilidad.</p>
+            </div>
+            <div class="cines__item-button-container">
+              <a href="https://pancito-feliz-r.netlify.app"
+                class="cines__item-button cines__item-button--bg-gold ">Cines</a>
+              <a href="https://github.com/ElliotXLeo/pancito-feliz-r" class="cines__item-button">Ver</a>
+            </div>
+          </article>
+        </div>
+    </div>
+    </section>
+</main>
+
+
+<footer class="bg-light text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #3b5998;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #55acee;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <!-- Instagram -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #ac2bac;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright
+    </div>
+    <!-- Copyright -->
+  </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+    integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
